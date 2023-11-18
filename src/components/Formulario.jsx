@@ -25,7 +25,7 @@ export const Formulario = () => {
                         // Menu item son cada una de las options, pero usamos la librería de MUI
                         <MenuItem
                             key={categoria.value} value={categoria.value}>
-                            {categoria.label}>
+                            {categoria.label}
                         </MenuItem>
                 ))}
 
